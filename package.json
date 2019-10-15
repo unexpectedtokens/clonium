@@ -1,0 +1,38 @@
+{
+  "name": "clonium",
+  "version": "1.0.0",
+  "description": "MERN stack blog application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unexpectedtokens/clonium.git"
+  },
+  "author": "Daniel de Jong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unexpectedtokens/clonium/issues"
+  },
+  "homepage": "https://github.com/unexpectedtokens/clonium#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.1",
+    "@types/jsonwebtoken": "^8.3.3",
+    "@types/node": "^12.7.5",
+    "dotenv": "^8.1.0",
+    "nodemon": "^1.19.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.3"
+  }
+}
